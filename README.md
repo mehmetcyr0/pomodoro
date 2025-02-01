@@ -23,7 +23,7 @@ Bu Flutter uygulaması, Pomodoro tekniğine dayalı olarak kullanıcıların zam
    ```
 2. Depoyu klonlayın:  
    ```sh
-   git clone https://github.com/kullanici/pomodoro_app.git
+   git clone https://github.com/mehmetcyr0/pomodoro.git
    cd pomodoro_app
    ```
 3. Gerekli paketleri yükleyin:  
