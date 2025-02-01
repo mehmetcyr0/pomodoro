@@ -1,16 +1,55 @@
-# pomodoro
+# Pomodoro Zamanlayıcı
 
-A new Flutter project.
+Bu Flutter uygulaması, Pomodoro tekniğine dayalı olarak kullanıcıların zaman yönetimini iyileştirmesine yardımcı olan bir zamanlayıcıdır. Kullanıcılar, belirlenen çalışma ve mola sürelerine göre zamanlarını düzenleyebilir ve görevlerini takip edebilir.
 
-## Getting Started
+## Özellikler
+- Pomodoro zamanlayıcısı (25 dakika çalışma, 5 dakika mola - varsayılan olarak)
+- Kullanıcının çalışma ve mola sürelerini seçebilmesi
+- Görev ekleme ve tamamlama takip sistemi
+- bildirim sistemi 
+- 4 Pomodoro tamamlandıktan sonra uzun mola
+- Tamamlanan görevleri listeleme
+- Pomodoro süresini başlatma, duraklatma, sıfırlama ve atlama seçenekleri
 
-This project is a starting point for a Flutter application.
+## Kurulum
+### Gereksinimler
+- Flutter SDK
+- Dart SDK
 
-A few resources to get you started if this is your first Flutter project:
+### Adımlar
+1. Flutter'ın yüklü olduğunu doğrulayın:  
+   ```sh
+   flutter --version
+   ```
+2. Depoyu klonlayın:  
+   ```sh
+   git clone https://github.com/kullanici/pomodoro_app.git
+   cd pomodoro_app
+   ```
+3. Gerekli paketleri yükleyin:  
+   ```sh
+   flutter pub get
+   ```
+4. Uygulamayı çalıştırın:  
+   ```sh
+   flutter run
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Kullanım
+- **Başlat:** Zamanlayıcıyı başlatmak için "Başlat" butonuna basın.
+- **Duraklat:** Zamanlayıcıyı duraklatmak için "Duraklat" butonuna basın.
+- **Sıfırla:** Zamanlayıcıyı sıfırlamak için "Sıfırla" butonuna basın.
+- **Atla:** Mevcut Pomodoro döngüsünü tamamlamadan atlamak için "Atla" butonuna basın.
+- **Görevleri görüntüleme:** Tamamlanan görevleri görmek için "Geçmiş" ikonuna tıklayın.
+- **Ayarlar:** Çalışma ve mola sürelerini değiştirmek için "Ayarlar" ikonuna tıklayın.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Teknolojiler
+- **Flutter**: UI Framework
+- **Dart**: Programlama dili
+- **Material Design**: Kullanıcı dostu arayüz
+
+
+## İletişim
+Herhangi bir sorun veya öneri için bizimle iletişime geçebilirsiniz:
+- **E-posta:** mehmet.cyr38@gmail.com
